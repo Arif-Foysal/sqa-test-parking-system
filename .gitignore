@@ -1,10 +1,10 @@
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
-!**/src/test/**/out/
+# !**/src/test/**/out/
 .kotlin
 
-**/*Test.java
+# **/*Test.java
 
 ### Eclipse ###
 .apt_generated
@@ -16,7 +16,7 @@ out/
 .sts4-cache
 bin/
 !**/src/main/**/bin/
-!**/src/test/**/bin/
+# !**/src/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
